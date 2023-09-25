@@ -47,7 +47,7 @@
 
 |Columna          |Tipo     |Restricciones            |         
 |-----------------|---------|-------------------------|
-|rental_key       |int(8)   | PK, NN                  |
+|rental_key       |int(8)   | PK, NN, auto_increment  |
 |rental_id        |date     | UK, NN                  |
 |date_key         |int      | FK(dim_tiempo), NN      |
 |store_key        |int      | FK(dim_store),  NN      |
